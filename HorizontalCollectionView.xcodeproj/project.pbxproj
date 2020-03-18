@@ -16,6 +16,7 @@
 		FB79D36B24221086002A7CC0 /* WallpaperCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB79D36924221086002A7CC0 /* WallpaperCollectionCell.swift */; };
 		FB79D36C24221086002A7CC0 /* WallpaperCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB79D36A24221086002A7CC0 /* WallpaperCollectionCell.xib */; };
 		FB79D37024221A35002A7CC0 /* WallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */; };
+		FB79D375242220D2002A7CC0 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FB79D374242220D2002A7CC0 /* preview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		FB79D36924221086002A7CC0 /* WallpaperCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionCell.swift; sourceTree = "<group>"; };
 		FB79D36A24221086002A7CC0 /* WallpaperCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCollectionCell.xib; sourceTree = "<group>"; };
 		FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCell.swift; sourceTree = "<group>"; };
+		FB79D37324221FC6002A7CC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB79D374242220D2002A7CC0 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				FB79D35324220B0D002A7CC0 /* HorizontalCollectionView */,
+				FB79D37224221FB5002A7CC0 /* Screeenshot */,
+				FB79D37324221FC6002A7CC0 /* README.md */,
 				FB79D35224220B0D002A7CC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +103,14 @@
 				FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		FB79D37224221FB5002A7CC0 /* Screeenshot */ = {
+			isa = PBXGroup;
+			children = (
+				FB79D374242220D2002A7CC0 /* preview.png */,
+			);
+			path = Screeenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +175,7 @@
 				FB79D36124220B0E002A7CC0 /* LaunchScreen.storyboard in Resources */,
 				FB79D35E24220B0E002A7CC0 /* Assets.xcassets in Resources */,
 				FB79D35C24220B0D002A7CC0 /* Main.storyboard in Resources */,
+				FB79D375242220D2002A7CC0 /* preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
