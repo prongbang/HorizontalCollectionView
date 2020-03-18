@@ -13,6 +13,9 @@
 		FB79D35C24220B0D002A7CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB79D35A24220B0D002A7CC0 /* Main.storyboard */; };
 		FB79D35E24220B0E002A7CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB79D35D24220B0E002A7CC0 /* Assets.xcassets */; };
 		FB79D36124220B0E002A7CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB79D35F24220B0E002A7CC0 /* LaunchScreen.storyboard */; };
+		FB79D36B24221086002A7CC0 /* WallpaperCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB79D36924221086002A7CC0 /* WallpaperCollectionCell.swift */; };
+		FB79D36C24221086002A7CC0 /* WallpaperCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB79D36A24221086002A7CC0 /* WallpaperCollectionCell.xib */; };
+		FB79D37024221A35002A7CC0 /* WallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FB79D35D24220B0E002A7CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB79D36024220B0E002A7CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB79D36224220B0E002A7CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB79D36924221086002A7CC0 /* WallpaperCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionCell.swift; sourceTree = "<group>"; };
+		FB79D36A24221086002A7CC0 /* WallpaperCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCollectionCell.xib; sourceTree = "<group>"; };
+		FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		FB79D35324220B0D002A7CC0 /* HorizontalCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				FB79D36824221055002A7CC0 /* Wallpaper */,
 				FB79D35424220B0D002A7CC0 /* AppDelegate.swift */,
 				FB79D35624220B0D002A7CC0 /* SceneDelegate.swift */,
 				FB79D35824220B0D002A7CC0 /* ViewController.swift */,
@@ -65,6 +72,32 @@
 				FB79D36224220B0E002A7CC0 /* Info.plist */,
 			);
 			path = HorizontalCollectionView;
+			sourceTree = "<group>";
+		};
+		FB79D36824221055002A7CC0 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				FB79D36E242219FF002A7CC0 /* Cell */,
+				FB79D36D24221892002A7CC0 /* Xib */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		FB79D36D24221892002A7CC0 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				FB79D36924221086002A7CC0 /* WallpaperCollectionCell.swift */,
+				FB79D36A24221086002A7CC0 /* WallpaperCollectionCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		FB79D36E242219FF002A7CC0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB79D36F24221A35002A7CC0 /* WallpaperCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB79D36C24221086002A7CC0 /* WallpaperCollectionCell.xib in Resources */,
 				FB79D36124220B0E002A7CC0 /* LaunchScreen.storyboard in Resources */,
 				FB79D35E24220B0E002A7CC0 /* Assets.xcassets in Resources */,
 				FB79D35C24220B0D002A7CC0 /* Main.storyboard in Resources */,
@@ -138,6 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB79D37024221A35002A7CC0 /* WallpaperCell.swift in Sources */,
+				FB79D36B24221086002A7CC0 /* WallpaperCollectionCell.swift in Sources */,
 				FB79D35924220B0D002A7CC0 /* ViewController.swift in Sources */,
 				FB79D35524220B0D002A7CC0 /* AppDelegate.swift in Sources */,
 				FB79D35724220B0D002A7CC0 /* SceneDelegate.swift in Sources */,
